@@ -15,6 +15,7 @@ public class Person {
     }
 
     public String getName() {
+
         return name;
     }
 
@@ -26,11 +27,13 @@ public class Person {
     }
 
     public int getAge() {
+
         return age;
 
     }
 
     public void setAge(int newAge) {
+
         age = newAge;
     }
 
