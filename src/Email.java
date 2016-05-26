@@ -63,4 +63,15 @@ public class Email {
     public void setTime(int time) {
         this.time = time;
     }
+
+    @Override
+    public String toString() {
+        return "Email{" +
+                "author=" + author +
+                ", subject='" + subject + '\'' +
+                ", body='" + body + '\'' +
+                ", destination='" + destination + '\'' +
+                ", time=" + time +
+                '}';
+    }
 }
